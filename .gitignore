@@ -1,0 +1,7 @@
+.idea
+node_modules/
+coverage/
+.DS_Store
+test/js/build/
+package-lock.json
+website/
