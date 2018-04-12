@@ -4,4 +4,3 @@ coverage/
 .DS_Store
 test/js/build/
 package-lock.json
-website/
