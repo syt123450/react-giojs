@@ -78,6 +78,10 @@ export default App;
 
 If everything goes well, you should see [this](http://giojs.org/examples/00_hello_world(simplest).html).
 
+## Try it online
+
+[Gio.js playground](http://giojs.org/html/playground.html)
+
 <!-- [END getstarted] -->
 
 ## Configuration
@@ -91,16 +95,16 @@ Know more about what these API means, check out [Gio.js document](http://giojs.o
     <Gio
 
         // width of the Gio container
-        width: null,
+        width: 400,
 
         // height of the Gio container
-        height: null,
+        height: 500,
 
-        // data of the Gio controller
-        data: null,
+        // data of the Gio controller, in Json format
+        data: data,
 
         // API to switch to a specific country without click on the globe
-        forceSwitchCountry: null,
+        forceSwitchCountry: "US",
 
         // user can set these configs to define how the Gio look like, this is the same as the parameter of Gio.js's configure() API
         configs: {
@@ -108,25 +112,25 @@ Know more about what these API means, check out [Gio.js document](http://giojs.o
             control: {
 
                 // whether show stats (boolean)
-                stats: null,
+                stats: false,
 
                 // whether let unmentioned country unclickable (boolean)
-                disableUnmentioned: null,
+                disableUnmentioned: false,
 
                 // whether let the country mentioned in dataset lighter (boolean)
-                lightenMentioned: null,
+                lightenMentioned: false,
 
                 // only show in line for selected country (boolean)
-                inOnly: null,
+                inOnly: true,
 
                 // only show out line for selected country (boolean)
-                outOnly: null,
+                outOnly: false,
 
                 // set the initial selected country (ISO3166, String, eg. "CN")
-                initCountry: null,
+                initCountry: "CN",
 
                 // whether show halo (boolean)
-                halo: null
+                halo: true
 
             },
 
@@ -134,22 +138,22 @@ Know more about what these API means, check out [Gio.js document](http://giojs.o
             color: {
 
                 // surface color
-                surface: null,
+                surface: 0x48C12,
 
                 // color of selected country
-                selected: null,
+                selected: 0xF17F49,
 
                 // color of in line of selected country
-                in: null,
+                in: 0x0091FF,
 
                 // color of out line of selected country
-                out: null,
+                out: 0xFF8000,
 
                 // halo color
-                halo: null,
+                halo: 0X2C4247,
 
                 // background color, area behind the globe
-                background: null
+                background: 0x1A2029
 
             },
 
@@ -157,13 +161,13 @@ Know more about what these API means, check out [Gio.js document](http://giojs.o
             brightness: {
 
                 // brightness of ocean on the earth's surface
-                ocean: null,
+                ocean: 0.5,
 
                 // brightness of country mentioned in the data set
-                mentioned: null,
+                mentioned: 1,
 
                 // country related to the selected country (in or out)
-                related: null
+                related: 0.1
 
             }
 
