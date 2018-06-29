@@ -11,15 +11,22 @@
   <a href="https://coveralls.io/github/syt123450/Gio.js?branch=master"><img src="https://coveralls.io/repos/github/syt123450/Gio.js/badge.svg" alt="coverage"></a>
 </p>
 
-**React-Giojs** is a react version of the open source library **Gio.js**, **Gio.js** is an open source library for data visualization library based on a 3D globe. This library is inspired by the [Arms Trade Visualization](http://armsglobe.chromeexperiments.com/) project developed by Michael Chang and presented during Google Ideas INFO 2012. See [original post](http://mflux.tumblr.com/post/28367579774/armstradeviz). What makes Gio.js different is that it is fully customizable for users and friendly to future developers.
-
-
+**React-Giojs** is the react version of the open source library **Gio.js**. **Gio.js** is an open source library for web 3D globe data visualization built with Three.js. What makes Gio.js different is that it is **simple** to use Gio.js to **customize** a 3D data visualization model in a declarative way, add your own data, and integrate it into your own **modern** web application.
 
 <!-- [START screenshot] -->
 <p align="center">
   <a href=""><img src="https://github.com/syt123450/giojs/blob/master/assets/readme/Gio.gif"/></a>
 </p>
 <!-- [END screenshot] -->
+
+## Table of Content
+
+- [Getting Started](#getting-started)
+- [Try it online](#try-it-online)
+- [Configuration](#configuration)
+- [Documentation](#documentation)
+- [WIP](#wip)
+- [License](#license)
 
 <!-- [START getstarted] -->
 ## Getting Started
@@ -80,7 +87,8 @@ If everything goes well, you should see [this](http://giojs.org/examples/00_hell
 
 ## Try it online
 
-[Gio.js playground](http://giojs.org/html/playground.html)
+* [Gio.js playground](http://giojs.org/html/playground.html)
+* [Gio.js codepen online demos](https://codepen.io/collection/DkBobG/)
 
 <!-- [END getstarted] -->
 
@@ -188,6 +196,17 @@ These documentations are about Gio.js, which introduce what Gio.js is, how to us
 - See Gio's offical website [giojs.org](http://giojs.org) for everything above and plus lots of live examples
 
 <!-- [END documentation] -->
+
+## WIP
+
+* More documentation for React-giojs
+* Official website for React-giojs
+* Online demos for React-giojs
+* Follow Gio.js 2.0
+
+## License
+
+[Apache-2.0](https://github.com/syt123450/react-giojs/blob/master/LICENSE)
 
 
 [screenshot-url]: http://via.placeholder.com/400x300
