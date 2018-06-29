@@ -17,7 +17,7 @@
 
 <!-- [START screenshot] -->
 <p align="center">
-  <a href=""><img src="https://rawgit.com/syt123450/Gio.js/master/assets/readme/Gio.png"/></a>
+  <a href=""><img src="https://github.com/syt123450/giojs/blob/master/assets/readme/Gio.gif"/></a>
 </p>
 <!-- [END screenshot] -->
 
