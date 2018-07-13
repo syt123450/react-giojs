@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://giojs.org" target="_blank"><img width="100" src="https://rawgit.com/syt123450/Gio.js/master/assets/readme/logo.png" alt="Gio logo"></a></p>
+<p align="center"><a href="https://giojs.org" target="_blank"><img width="100" src="https://raw.githack.com/syt123450/giojs/master/assets/readme/logo.png" alt="Gio logo"></a></p>
 
 <h1 align="center">React-Giojs</h1>
 
@@ -15,7 +15,7 @@
 
 <!-- [START screenshot] -->
 <p align="center">
-  <a href=""><img src="https://github.com/syt123450/giojs/blob/master/assets/readme/Gio.gif"/></a>
+  <a href=""><img src="https://raw.githack.com/syt123450/giojs/master/assets/readme/Gio.gif"/></a>
 </p>
 <!-- [END screenshot] -->
 
